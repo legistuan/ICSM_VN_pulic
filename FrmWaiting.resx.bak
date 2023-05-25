@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureEdit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 7</value>
+  </data>
+  <data name="pictureEdit2.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="pictureEdit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 57</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureEdit2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit2.Name" xml:space="preserve">
+    <value>pictureEdit2</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v13.2, Version=13.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 23</value>
+  </data>
+  <data name="labelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="labelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelControl2.Text" xml:space="preserve">
+    <value>Chương trình đang chạy...</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Name" xml:space="preserve">
+    <value>labelControl2</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="marqueeProgressBarControl1.EditValue" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="marqueeProgressBarControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 48</value>
+  </data>
+  <data name="marqueeProgressBarControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 16</value>
+  </data>
+  <data name="marqueeProgressBarControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;marqueeProgressBarControl1.Name" xml:space="preserve">
+    <value>marqueeProgressBarControl1</value>
+  </data>
+  <data name="&gt;&gt;marqueeProgressBarControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.MarqueeProgressBarControl, DevExpress.XtraEditors.v13.2, Version=13.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;marqueeProgressBarControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;marqueeProgressBarControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>393, 83</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEACACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAQAAAAAAAAAAAAAAAEAAAAB
+        AAAkrE0AJ6tTACWtWAAqp1IAK6pUACytXAAssF8ALq5kAC+vaAAtsGMALrFqAC60dAA0qmEAM65rADiu
+        agA8rHQAMLFmADGybAA5sW8AM7R0ADa2egA1uHcANrh8ADqzdQA7tHwAObh9AEascQBDsXMAQ7N7AEq1
+        ewBUtHYAUrZ7ADy2gAA7uoMAPryKAES2ggBHtogARLiGAES7jABJt4kAS7iKAEm7kABVtoQAVbeIAFS5
+        ggBWu4sAXb2KAFu6kABit4MAYryOAG+/jQBnv5UAbb+RAHC+iQBFwI0AXMGbAGbAjABuwo0AbMKVAGzC
+        mQBxxYwAcsWRAHPHmwByyJMAesmdAGnEpABzx6AAdcigAHnGoAB7yqQAf8qqAIDKmwCIwZ8AhcqlAITP
+        rQCIzKYAj82rAITQrgCL0a4Akc+uAJLQrwCT0bMAl9a5AJzXtwCf1r0Am9i9AKbXugCj2bYApdm6AKnW
+        swCr2r0Apt3FAK7bwgCv38kAs9/LAK/hzgCy4ccAtOHNALvjzgC34dEAuuPTAMPnzwDA5tYAw+nWAMTq
+        2gDK69YAzOvcANLv3QDN7eEAzfPlANPt4ADb7eYA1PLlANzy4gDd9esA4/XrAOP47gDq9+8A6vrvAOH2
+        8ADk+fEA6vfyAOz69QDt/PkA8fv0APP9+AD8/f0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAfn5zXlxcXFxcXFxaWlhYWlhaWFhYV1dXV1dXWFllfH5+ZyQXEREKCggICAgHBwgFBwUFBQcC
+        BAUEBAQEAAM1fHsxExMRExMRCggICAgHCAkHBQUHBQUFBQQFBAQDAwNZdw8RExMRERETCAgICAgIBwcH
+        BQUFBQUFBQQEAQQEADxyFxMTExMTEREREREICAgHCAcFBwkFBQUFBB4fBAEDOXMYExMLExMTExEREQgI
+        CAgHBwkJBQUFBQUEXGIEAAQ8dxgTExMLExMRExEKEQoICAgHCQkJBwUFBQZpWgQEBDx0GBQUExMTExMK
+        ExEPEQgICgkJCQkGBgUFMHw5AgUEPHcZFBMTFBMXExcTERENFy4+S09QUExLR0BqaQwEBQQ9dxgUFBYT
+        FRMTExEXO2J5fXx1dHNzdHN8fn41BQUFBT10GBQUFBUUExQLLGR8ak4xHBcODg4IGmJ8fjgFBgUEPXQj
+        FhkWExMUFytwcDsXERERCggREBJgdkh9PAYGBQU9dBgWGRYTFBUjbm8rExMTEREREQobZXU5Enw7CQUF
+        BTx0IxYWFhYUF1J1LRUTCxMRERERHWl3MQgbfT8GBQcFP3QlFhkZFhYceFUTFxMVFRMSES1xcSsICh19
+        OAcHBQU/dCAWGRkZFkZ9LRUVFQsVEQtJdWgsCgoILn0sBwkJBT90IxYhFhYWW3AYGBMTExMcXHpbHBER
+        EhFAdhsHBwcFP3gjISEWISBkZBQUFBgLO2x0ShMTExEREVprCgcHCAU+dyUhFiEhIGheGRkUFFd7aC8T
+        ERMRExEPc1MRCAgIBz53JSEhIRYhaF4ZGRkjcFEYExMTExMTEU56KwoNCAgHPnclISEhISBoXxkZGRgU
+        GBQVExMTERM6fFIPCggICBA+dyUhIiEhIGhdIRkWGRkUFBYTExMYRHpiDwsREQgICD50JiIhISElaF8h
+        FhYZGRcUExQcO2N6YBQXEREREQgIPnQmIiEiISFobE1NTUpKSkpVYXN9cEQYExMRExEREQpCdCkiIiIi
+        IV97e3t7e3t7enJkVTMXExMTExMTERMRCkJ0KSIiISIiJSQkJCQlJSUjGCAgFBUUExMTExETERERQnQp
+        IiIiIiIiIiEhISEgIBkZFhQUExYUFBMTExMRERFDdCkiIiIiIiIhISEhISEgGRYZFhYUExQTExMTExMT
+        EUN4KTYiIiYiIiIhISEhISEWFhkZGRYUFRMTFBQLExMTRX1BIiYmJiIiJiEiISEhICEgIBkZFhkUFBQT
+        EwsTFxdcfmw3NjYmIiIiIiEiISAhISEWFiEZFhkZFBQXFBQXRHx+fnhkZGRkZGNjY2NjY2FhYWFhYV5e
+        X15eXl5dXWx9fgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmWaiting</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraSplashScreen.SplashScreen, DevExpress.XtraEditors.v13.2, Version=13.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>
