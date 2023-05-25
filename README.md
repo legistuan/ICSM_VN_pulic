@@ -1,9 +1,9 @@
 # ICSM_VN_pulic
 It is the software supporting soil classification of Vietnam
-They include three parts: (1) files related to codes,
-(2) 13 files to test the software (NhanDienMDGuiTapChi/Test), (3) Setup file. The test files are BTGD_04.ndmd_tri, BTGD_05.ndmd_tri,
+They include two parts: (1) files related to codes,
+(2) 13 files to test the software (NhanDienMDGuiTapChi/Test). The test files are BTGD_04.ndmd_tri, BTGD_05.ndmd_tri,
 BTGD_06.ndmd_tri, BTGD_07.ndmd_tri, BTGD_08.ndmd_tri, VN05.ndmd_tri, VN14.ndmd_tri, VN34.ndmd_tri, VN37.ndmd_tri,
-VN46.ndmd_tri, VN47.ndmd_tri, VN54.ndmd_tri, VN60.ndmd_tri. The setup file is ICSM_1.1_setup.
+VN46.ndmd_tri, VN47.ndmd_tri, VN54.ndmd_tri, VN60.ndmd_tri.
 
 Why and how to use the code.
 We choose the windform for our program because it provides one of the most productive ways to create desktop apps based on the visual designer provided in Visual Studio. Functionality such as drag-and-drop placement of visual controls makes it easy to build desktop apps. 
